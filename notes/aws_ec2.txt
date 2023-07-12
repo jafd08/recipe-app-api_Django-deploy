@@ -1,0 +1,16 @@
+ssh ec2-user@3.84.254.105
+
+
+
+sudo yum install git -y
+sudo amazon-linux-extras install docker -y
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
+sudo usermod -aG docker ec2-user
+
+
+https://github.com/LondonAppDeveloper/build-a-backend-rest-api-with-python-django-advanced-resources/blob/main/deployment.md#install-and-configure-depdencies
+
+
+admin_jf@example.com
+A.....$
